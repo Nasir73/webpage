@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Amazon-like Product Page</h1>
+        </div>
+    </header>
+    <main>
+        <section class="products">
+            <div class="container">
+                <div class="product">
+                    <img src="iphone.jpg" alt="IPHONE ">
+                    <h3> Apple iPhone 13 (128GB) - Midnight </h3>
+                    <p>₹48,499</p>
+                    <div class="myDiv">
+                        -19%
+                    </div>
+                    <button class="amazon-button" onclick="redirectToAmazon('https://www.amazon.in/Apple-iPhone-13-128GB-Midnight/dp/B09G9HD6PD?ref_=Oct_DLandingS_D_ec23cdbf_0')">View on Amazon</button>
+
+                </div>
+                <!-- Add more product cards here -->
+                <div class="product">
+                    <img src="charger.jpeg" alt="APPLE CHARGER">
+                    <h3> Apple 20W USB-C Power Adapter (for iPhone, iPad & AirPods) </h3>
+                    <p>₹1,699</p>
+                    <button class="amazon-button" onclick="redirectToAmazon('https://www.amazon.in/Apple-USB-C-Adapter-iPhone-AirPods/dp/B08L5WWFCY/ref=sr_1_3?crid=186U32QQG57H5&dib=eyJ2IjoiMSJ9.D7leg1AafFHGp8yXg2YlXlH9erT_uCuiir_SvTIqbdGrC1yXxcfgkN2z6mkpfDjYwd0QSjm9dJBDk0TLbjGk0bv6pfSK5BEEukwPO4DUluhaHxVs7LP3O8S9MAQBu8VvYJo3UaIerATYsIxRud-YudEfyhqyK6RF0SyyIeg0q6-Tga3ARj1Ya2Q4FMbXSOlOyi0agYK1ZGzb2caOyvSMG5lYmuqhn_0vKdCvrsx8sRM.YGwfe7B_-GoSLvOiLCZUDAa921nuXeA8nIj1VQTYGWM&dib_tag=se&keywords=iphone+charger+original&qid=1715181903&sprefix=iphone+char%2Caps%2C313&sr=8-3')">View on Amazon</button>
+
+                </div>
+                <div class="product">
+                    <img src="lap.jpg" alt="Apple 2024 MacBook Air 15">
+                    <h3> Apple 2024 MacBook Air 15″ Laptop with M3 chip: 38.91 cm (15.3″) Liquid Retina Display, 8GB Unified Memory, 512GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera, Touch ID- Starlight </h3>
+                    <p>₹1,54,900</p>
+                    <button class="amazon-button" onclick="redirectToAmazon('https://www.amazon.in/Apple-2024-MacBook-Laptop-chip/dp/B0CX24SZZ2/ref=sr_1_3?crid=25QQMQZG5AFKH&dib=eyJ2IjoiMSJ9.9i89blMqsJKfDEpOkw7b5ydjeonPL8o7IrXJsSpEB7t2LlBBvHn4BrBeG9CF0z0pUycfCXcle2c1BcDvALTwFeqqnqF1Ti9QPNVn6SNcZDWRRiNA73rfZpOxFIoQEAjG5AnGDb7Umw7hmd3xRwpeinLYhWNtal0dBlxMjtbAxNyeLIwj8OrJOpPL2AENeubRPmEuceSiEUKtI86YIYhwfLMNoS-LQii5gcSytTj5SR4.HBJnHwMnaPgxJ6Imi2YS8j_0MxPRbrLNXTasa1VU2ck&dib_tag=se&keywords=apple+latest+laptop&qid=1715438984&sprefix=apple+lates%2Caps%2C295&sr=8-3')">View on Amazon</button>
+                    <div id="imageContainer"></div>
+                </div>
+                <div class="product">
+                    <img src="ipad.jpg" alt="Apple iPad Pro 11">
+                    <h3> Apple iPad Pro 11″ (4th Generation): with M2 chip, Liquid Retina Display, 128GB, Wi-Fi 6E, 12MP front/12MP and 10MP Back Cameras, Face ID, All-Day Battery Life – Space Grey </h3>
+                    <p> ₹79,900</p>
+                    <button class="amazon-button" onclick="redirectToAmazon('https://www.amazon.in/Apple-11-inch-iPad-Pro-Wi-Fi-128GB/dp/B0BJLFBYV1/ref=sr_1_2?crid=2DGJUW1A9NCBU&dib=eyJ2IjoiMSJ9.tZeCivCTSA-9oUpSrh9rumNQ_5CbmbDcC5wMwBN35SN-1vf9Gn7XKsYGi6O94maQU5rmonuGM-uWBkC9yITr-OOUQx7WMfBkG1aE2I9xg-V8vxav8mdqd1w_3_gON5ih2RSRv3eOViofrU2G0jy0qIJwudYkIafqQv-pCsLadvm-o065sBfW0gSNRkaG7bk1Bd0rLdsvCok-urXT8lbiyE5wWDy1nryj5G-weioOD2Y.luzcO2teASjSeY9t8cRR5KPG50_PTNwLxmJRakwMWoE&dib_tag=se&keywords=apple+latest+ipad&qid=1715439254&sprefix=apple+latest+%2Caps%2C285&sr=8-2')">View on Amazon</button>
+                    <div id="imageContainer"></div>
+                </div>
+                <div class="product">
+                    <img src="watch.jpg" alt="Apple Watch Series 9 ">
+                    <h3> Apple Watch Series 9 [GPS + Cellular 45mm] Smartwatch with Starlight Aluminum Case with Starlight Sport Band S/M. Fitness Tracker, Blood Oxygen & ECG Apps, Always-On Retina Display, Water Resistant </h3>
+                    <p>₹47999</p>
+
+                    <button class="amazon-button" onclick="redirectToAmazon('https://www.amazon.in/Apple-Cellular-Smartwatch-Starlight-Resistant/dp/B0CHY2WK67/ref=sr_1_4?crid=N78N0GTW6HSI&dib=eyJ2IjoiMSJ9.99MBG_SudDw3K37B7jWxjYIXy0uP-yTZUHyeerm9bY65brNJqdnDhgpsXkBuufXGGOYaD3VoNFkazuWG5BAM7G2wZBOxjF0hNy4VDWt-FG3qqDmTeE-brIlbMSPEjAe1elJYS-UKrwg-zOJaHxWdx7XdEo_rrtJH9UxK_uroH0WqcXGYbzCeX18nOPTDNFxC_R0xhblzCVQc6taQsvKHZK-iSFWRhE-rbGKdeaMWrf8.EHrLhv670KX784mB7XWegfRObe5zphckSoG9Q2KLsnU&dib_tag=se&keywords=apple+latest+smart+watch+2024&qid=1715439473&sprefix=apple+latest+%2Caps%2C327&sr=8-4')">View on Amazon</button>
+                    <div id="imageContainer"></div>
+
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Amazon-like Product Page. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
